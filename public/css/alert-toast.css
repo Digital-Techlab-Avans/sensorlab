@@ -1,0 +1,11 @@
+#alert-card {
+    z-index: 9999;
+    min-width: 300px;
+    margin-top: 80px;
+}
+
+.progress {
+    width: 100%;
+    background-color: #2d3748;
+    height: 4px;
+}

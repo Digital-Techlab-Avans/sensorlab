@@ -1,0 +1,21 @@
+.sidebar {
+    background-color: #a0aec0;
+}
+
+#second_tab_content {
+    display: none;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    border-bottom: #718096 5px solid;
+    margin-bottom: -5px;
+}
+
+.show-icon {
+    transform: rotate(180deg);
+}
+

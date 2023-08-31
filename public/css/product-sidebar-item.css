@@ -1,0 +1,25 @@
+.sidebar-item {
+    padding: 0 10px;
+    margin: 5px 0px;
+}
+
+.sidebar-sub-item {
+    background-color: #cbd5e0;
+    padding: 10px;
+    margin: 5px 0px;
+    border: #718096 1px solid;
+    border-radius: 5px;
+}
+
+ .dropdown-hover:hover .dropdown-menu {
+     display: block;
+ }
+
+.btn-outline-dark:hover {
+    background-color: transparent;
+    color: inherit;
+}
+
+
+
+

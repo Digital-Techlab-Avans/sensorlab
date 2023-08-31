@@ -1,0 +1,74 @@
+.carousel-source {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin-bottom: 5px;
+}
+
+.carousel-source-label {
+    font-weight: bold;
+    flex-basis: 85%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.carousel-delete-button {
+    background-color: transparent;
+    border: none;
+    color: #b0b0b0;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#carousel-previous-button,
+#carousel-next-button {
+    display: none !important;
+}
+
+.thumbnail{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.thumbnail-card{
+    position: relative;
+}
+
+.carousel-card, .thumbnail-card{
+    border-radius: 20px;
+    border-color: #477A72;
+    border-width: 1px;
+}
+
+.carousel .carousel-indicators button {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+}
+
+.play-button {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.selected-thumbnail {
+    border-color: #F6BA33;
+    border-width : 3px;
+    margin: -4px;
+}
+
+

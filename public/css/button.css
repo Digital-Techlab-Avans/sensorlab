@@ -1,0 +1,29 @@
+.truncate-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.btn-outline-primary {
+    border-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-outline-primary:hover{
+    border-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.5);
+    color: inherit;
+    background-color: transparent;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.grayed {
+    background-color: #e9ecef;
+}

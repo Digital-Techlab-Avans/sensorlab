@@ -1,0 +1,23 @@
+$yellow: #F6BA33;
+$green: #477A72;
+$lightOrange: #EEAA7B;
+
+$primary: $green;
+$secondary: grey;
+//$secondary: #6c757d;
+//$success: #28a745;
+$info: $lightOrange;
+$warning: $yellow;
+//$dark: $green;
+
+
+body {
+    padding-top: 56px;
+}
+
+.navbar-img {
+    width: 100%;
+    height: auto;
+    max-width: 130px;
+}
+
