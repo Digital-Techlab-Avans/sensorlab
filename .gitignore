@@ -1,3 +1,5 @@
+composer.lock
+packages-lock.json
 /node_modules
 /public/build
 /public/hot
