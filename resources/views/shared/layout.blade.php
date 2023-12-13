@@ -26,7 +26,7 @@
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="{{ asset('js/datetimepicker-flatpickr.js') }}" defer></script>
     <script src="/dataTableConfig.js"></script>
-
+    <script src="https://cdn.tiny.cloud/1/twqqr3dtv350blaoeaoh0x5bijhbi7yh2ut2dsjene057pye/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
     @yield('stylesheets')
     <title>Leensysteem</title>
     @laravelPWA
